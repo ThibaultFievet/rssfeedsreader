@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fievetthibault.rssfeedreader.ManageFeeds" >
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/ic_action_add"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_add"/>
+    <item
+        android:id="@+id/settings_display"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_settings"/>
+</menu>
